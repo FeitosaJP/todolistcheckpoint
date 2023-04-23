@@ -31,10 +31,14 @@
   
   }
   
+  .topo{
+    background-color: var(--color-interface-dark);
+  }
+
   body {
     font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
     font-size: 16px;
-    background-color: var(--color-interface-light);
+    background-color: var(--color-interface-light)
   }
 
   .perfil {
@@ -55,6 +59,7 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
+  background-color: var(--color-interface-dark);
 }
 
 .header-item {
@@ -100,6 +105,7 @@ header {
 .tarefa{
     display: flex;
     justify-content: space-between;
+    padding-bottom: var(--spacing-xlarge);
 }
 
 .form-task-input {
@@ -118,3 +124,21 @@ header {
     margin-top: var(--spacing-default);
     margin-bottom: var(--spacing-default);
 }
+
+.tasksection{
+  /* margin-top: var(--spacing-xlarge); */
+  background-color: var(--color-interface-light)
+}
+
+.task{
+  display:flex;
+  justify-content: space-between;
+}
+
+.typetask{
+  padding-left: var(--spacing-small);
+}
+
+.taskbuttonedit{
+  margin-left: 80%;
+} 
