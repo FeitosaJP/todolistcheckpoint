@@ -131,33 +131,27 @@ header {
 }
 
 .task{
-  /* outline: solid 1px red; */
+  outline: solid 1px red;
   width: 46vw;
-  display:flex;
+  display: inline-block;
+  vertical-align: top;
+  /*display:flex;
   flex-direction: row;
-  gap: 5vw;
+  gap: 5vw; */
 }
 
-/* .typetask{
-  margin-left: 15%;
-  display: inline-block;
-} */
+ .typetask{
+  display: inline;
+  margin-left: 5vw;
+} 
 
 .botao{
-  /* outline: solid 1px green; */
+  outline: solid 1px green;
   width: 46vw;
-  display: flex;
+  display: inline-block;
+  text-align: right;
+  /*display: flex;
   flex-direction: row;
-  text-align: center;
   outline: solid 1px red;
-}
-
-.icon{
-  gap: 46vw;
-}
-
-.teste{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+  text-align: right; */
 }
