@@ -35,10 +35,22 @@
     background-color: var(--color-interface-dark);
   }
 
+  .rodape{
+    background-color: var(--color-common-light);
+  }
+
+  .img{
+    max-width: 100%;
+  }
+
   body {
     font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
     font-size: 16px;
-    background-color: var(--color-interface-light)
+    background-color: var(--color-interface-dark)
+  }
+
+  .conteudo{
+    background-color: var(--color-common-light);
   }
 
   .perfil {
@@ -126,18 +138,16 @@ header {
 }
 
 .tasksection{
-  /* margin-top: var(--spacing-xlarge); */
-  background-color: var(--color-interface-light)
+  border-top: solid 1px var(--color-text-dark);
+  border-top-right-radius: 50px;
+  background-color: var(--color-common-light)
 }
 
 .task{
-  outline: solid 1px red;
   width: 46vw;
   display: inline-block;
   vertical-align: top;
-  /*display:flex;
-  flex-direction: row;
-  gap: 5vw; */
+  margin-top: 10vh;
 }
 
  .typetask{
@@ -146,12 +156,36 @@ header {
 } 
 
 .botao{
-  outline: solid 1px green;
   width: 46vw;
   display: inline-block;
   text-align: right;
-  /*display: flex;
-  flex-direction: row;
-  outline: solid 1px red;
-  text-align: right; */
+  margin-top: 10vh;
+}
+
+.task-dois{
+  width: 46vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1vh;
+  margin-bottom: 50vh;
+}
+
+ .typetask-dois{
+  display: inline;
+  margin-left: 5vw;
+} 
+
+.botao-dois{
+  width: 46vw;
+  display: inline-block;
+  text-align: right;
+  margin-top: 1vh;
+  margin-bottom: 50vh;
+}
+
+
+.icon{
+  border: none;
+  background-color: var(--color-common-light);
+  color: var(--color-text-light);
 }
